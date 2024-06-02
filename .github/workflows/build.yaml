@@ -1,11 +1,12 @@
-name: Build Spring Petclinic
+name: Build Spring Petclinic on ino_dev
 
 on:
   push:
     branches:
-      - main
       - ino_dev
   pull_request:
+    branches:
+      - ino_dev
 
 jobs:
   build:
