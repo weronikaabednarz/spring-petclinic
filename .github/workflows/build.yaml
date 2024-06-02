@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-      - ino_dev
+      
   pull_request:
 
 jobs:
